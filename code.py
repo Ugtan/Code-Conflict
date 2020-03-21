@@ -4,7 +4,8 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get(URL)
+_URL = ""
+page = requests.get(_URL)
 
 
 def parse_page(*args, **kwargs):
